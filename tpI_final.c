@@ -1,4 +1,4 @@
-//https://github.com/santi8547651717/TPI_Info1_santiago_gonzalez
+//https://github.com/santi8547651717/TPI_Info1_santiago_gonzalez/tree/main
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
