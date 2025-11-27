@@ -47,7 +47,7 @@ int main(void) {
     while (1) {
         // Tiempo
         time_t t;
-        time(&t);  // obtiene el tiempo actual en segundos UNIX
+        time(&t);
 
         struct tm *tm_info = localtime(&t);
         char buffer[30];
@@ -152,13 +152,7 @@ int main(void) {
                     fprintf(s, "%s,     Bot:%s manda algo\n", buffer,usuario );
                     fclose(s);
                 } else { printf("No se pudo abrir el archivo mensajes.txt!!");}
-
             }
-
-
-
-
-
                 free(chunk.response);
                 sleep(2);
             }
